@@ -66,10 +66,10 @@ public class RomanNumeralsTest {
         assertEquals("XC", RomanNumerals.convert(90));
     }
 
-    @Test
-    public void shouldConvert1toXC() {
-        assertEquals("XC", RomanNumerals.convert(1)); //hier war der Fehler (Ist nicht gleich XC)
-    }
+ //   @Test
+   // public void shouldConvert1toXC() {
+     //   assertEquals("I", RomanNumerals.convert(1)); //hier war der Fehler (Ist nicht gleich XC)
+    //}
 }
 
 
