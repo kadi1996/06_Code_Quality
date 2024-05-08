@@ -1,6 +1,6 @@
 package ch.zhaw.iwi.devops.demo;
 
-/*public class RomanNumerals {
+public class RomanNumerals {
     public static String convert(int number) {
         String[] romanLiterals = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
         int[] values = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
@@ -14,10 +14,10 @@ package ch.zhaw.iwi.devops.demo;
         }
         return roman.toString();
     }
-}*/
+}
 
 // Bewusst einen Fehler einbauen, damit dieses beim Code Coverage angezeigt wird 
-public class RomanNumerals {
+/*public class RomanNumerals {
     public static String convert(int number) {
         String[] romanLiterals = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
         int[] values = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
@@ -32,5 +32,5 @@ public class RomanNumerals {
         }
         return roman.toString();
     }
-}
+}*/
 
