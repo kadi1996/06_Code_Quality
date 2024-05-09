@@ -10,13 +10,13 @@ export class GuiModel {
                     "title": "NotImplemented",
                     "formFieldList": [
                         {
-                            "type": 'okButton', //absichtlicher Fehler
+                            "type": "okButton", //absichtlicher Fehler behoben
                             "name": "Ok"
                         }
                     ]
                 },
                 {
-                    "id": 'NotImplementedForm', //absichtlicher Fehler
+                    "id": "NotImplementedForm", //absichtlicher Fehler behoben
                     "title": "Not Implemented",
                     "url": "/dummyform",
                     "headerVisible": false,
@@ -24,7 +24,7 @@ export class GuiModel {
                     "borderStyle": "None",
                     "formFieldList": [
                         {
-                            "id": 'NotImplemented', //absichtlicher Fehler
+                            "id": "NotImplemented", //absichtlicher Fehler behoben
                             "type": "label",
                             "name": "NotImplementedMessage",
                             "width": 2
